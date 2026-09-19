@@ -1,0 +1,9 @@
+{
+  "name": "oskcarsv",
+  "owner": { "name": "Oscar Morales", "url": "https://github.com/oskcarsv" },
+  "metadata": {
+    "description": "Skills públicas de Oscar Morales para Claude Code, Codex y Cursor.",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": []
+}
