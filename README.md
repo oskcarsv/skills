@@ -2,25 +2,20 @@
 
 [![skills.sh](https://skills.sh/b/oskcarsv/skills)](https://skills.sh/oskcarsv/skills)
 
-Skills públicas de Oscar Morales para Claude Code, Codex, Cursor y cualquier agente que siga el estándar [Agent Skills](https://agentskills.io).
+Public skills by Oscar Morales for Claude Code, Codex, Cursor and any agent that follows the [Agent Skills](https://agentskills.io) standard.
 
-## Instalar
-
-Claude Code:
-
-    claude plugin marketplace add oskcarsv/skills
-    claude plugin install <plugin>@oskcarsv
-
-Cualquier agente con la CLI `skills`:
+## Install
 
     npx skills add oskcarsv/skills
 
-## Estructura
+Pick specific skills with `--skill <name>`, or `--all` for every skill in the repo.
 
-    plugins/<plugin>/skills/<skill>/SKILL.md
+## Structure
 
-Cada skill es una carpeta con `SKILL.md` y, opcionalmente, `references/`, `scripts/` y `assets/`.
+    skills/<skill-name>/SKILL.md
 
-## Licencia
+Each skill is a folder with a `SKILL.md` and, optionally, `references/`, `scripts/` and `assets/`.
+
+## License
 
 MIT.
